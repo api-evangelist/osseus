@@ -1,0 +1,20 @@
+# Osseus
+
+> The secure research brain for R&D. Osseus connects the tools teams already use, scattered documents, and the knowledge in people's heads into one permissioned research brain. Permission-aware AI agents surface relevant evidence, experts, and next actions across experiments, designs, simulations, and scientific software.
+
+Osseus is a Y Combinator (Summer 2026) company founded by Anish Mariathasan and Ayush Patel. It serves R&D teams across aerospace, automotive, robotics, electronics, pharma, and biotech. Data is never used to train foundation models; customers bring their own API keys and can deploy in their own cloud or VPC.
+
+## Product
+- [Osseus platform](https://osseus.ai): permissioned research brain — cross-tool search, proactive watchers, and background automations for R&D teams.
+- Memory API: connect internal agents to a governed evidence layer (bring your own API keys). No public developer documentation published as of 2026-07-20.
+
+## Company
+- [Website](https://osseus.ai)
+- [Blog](https://osseus.ai/blog)
+- [Security](https://osseus.ai/security)
+- [Trust Center](https://trust.osseus.ai): SOC 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, GDPR. Encryption TLS 1.2+ in transit, AES-256 at rest.
+- [Y Combinator profile](https://www.ycombinator.com/companies/osseus)
+- Contact: hello@osseus.ai
+
+## Optional
+- No public API reference, OpenAPI, SDKs, CLI, or status page are published yet.

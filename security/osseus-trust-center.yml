@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.osseus.ai/
+url: https://trust.osseus.ai/
+docs: https://osseus.ai/trust
+certifications:
+- name: SOC 2
+  status: compliant
+  note: report available on request under NDA
+- name: ISO/IEC 27001:2022
+  status: certified
+- name: ISO/IEC 42001:2023
+  status: certified
+  note: AI management system standard
+- name: HIPAA
+  status: compliant
+  note: documentation available on request
+- name: GDPR
+  status: compliant
+  note: documentation available on request
+encryption:
+  in_transit: TLS 1.2+
+  at_rest: AES-256
+data_handling:
+- Customer data is never used to train foundation models (Osseus's or third-party).
+- Bring your own API keys; deploy in your own cloud or VPC.
+status_statement: All systems operational, no reported incidents (per trust page).
+security_contact: hello@osseus.ai
+evidence:
+- source: https://trust.osseus.ai/
+  keywords:
+  - soc 2
+  - soc2
+  - iso/iec 27001
+  - hipaa
+  - trust center
+  - gdpr
+- source: https://osseus.ai/trust
+  keywords:
+  - iso/iec 42001:2023
+  - aes-256
+  - tls 1.2

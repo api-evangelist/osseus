@@ -1,7 +1,28 @@
 aid: osseus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osseus.png
 name: Osseus
-description: Osseus is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Osseus is a secure research intelligence platform - "the secure research brain
+  for R&D" - that connects the tools teams already use, scattered documents, and
+  the knowledge in people's heads into one permissioned research brain.
+  Permission-aware AI agents surface relevant evidence, experts, and next
+  actions; proactive watchers flag integration issues and repeated work before
+  costly mistakes; and background automations run across connected systems. The
+  company also exposes a memory API for connecting internal agents to a governed
+  evidence layer. Osseus (Y Combinator S2026) was founded by Anish Mariathasan
+  and Ayush Patel and serves R&D teams across aerospace, automotive, robotics,
+  electronics, pharma, and biotech.
 url: https://raw.githubusercontent.com/api-evangelist/osseus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Research Intelligence
+- Knowledge Management
+- AI Agents
+- R&D
+- Security
+- Memory API
 apis: []
+common:
+- type: Website
+  url: https://osseus.ai
+- type: Blog
+  url: https://osseus.ai/blog
+- type: TrustCenter
+  url: https://trust.osseus.ai
+- type: Compliance
+  url: security/osseus-trust-center.yml
+- type: DomainSecurity
+  url: security/osseus-domain-security.yml
+- type: LLMsTxt
+  url: llms/osseus-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
